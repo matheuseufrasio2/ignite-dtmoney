@@ -42,6 +42,14 @@ export const Container = styled.main`
       &:last-child {
         border-radius: 0 0.25rem 0.25rem 0;
       }
+
+      &.deposit {
+        color: var(--green);
+      }
+
+      &.withdraw {
+        color: var(--red);
+      }
     }
   }
 `;
